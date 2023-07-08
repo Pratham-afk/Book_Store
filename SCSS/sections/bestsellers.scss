@@ -1,0 +1,32 @@
+#bestsellers{
+    width:100%;
+    .head_container{
+        width:86vw;
+        color:white;
+        padding-top:100px;
+        padding-bottom:50px;
+        margin:auto;
+        font-family:SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+        .head{
+            color:white;
+            font-size:25px;
+            letter-spacing:3px;
+
+            
+        }
+        .subhead{
+            font-family:CenturyGothic,AppleGothic,sans-serif;
+            letter-spacing:2px;
+        }
+
+
+    }
+    #grid_container{
+        display:grid;
+        grid-template-columns: auto auto;
+        margin:auto;
+        width:86vw;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+}

@@ -1,0 +1,90 @@
+@keyframes MoveInRight{
+    0%{
+        transform:translateX(-300px);
+        opacity:0;
+    }
+    100%{
+        transform:translateX(0);
+        opacity:1
+    }
+}
+@keyframes MoveInLeft{
+    0%{
+        transform:translateX(100px);
+        opacity:0;
+    }
+    100%{
+        transform:translateX(0);
+        opacity:1
+    }
+}
+
+@keyframes MoveInUp{
+    0%{
+        transform:translateY(50px);
+        opacity:0;
+    }
+    100%{
+        transform:translateX(0);
+        opacity:1
+    }
+}
+@keyframes FadeIn{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1
+    }
+}
+@keyframes RotateIn{
+    0%{
+        transform-origin: -100% -100%;
+        transform:rotate(-40deg);
+    }
+    100%{
+        transform:rotate(0deg);
+    }
+}
+@keyframes RotateOut{
+    0%{
+        transform-origin: -100% -100%;
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(50deg);
+    }
+}
+
+.MoveInRight{
+    animation: MoveInRight 0.8s;
+}
+#FadeIn1{
+    animation: FadeIn 1s ease ;
+    animation-fill-mode: backwards;
+}
+#FadeIn2{
+    animation: FadeIn 1s ease 0.3s;
+    animation-fill-mode: backwards;
+}
+#FadeIn3{
+    animation: FadeIn 1s ease 0.6s;
+    animation-fill-mode: backwards;
+}
+#FadeIn4{
+    animation: FadeIn 1s ease 0.9s;
+    animation-fill-mode: backwards;
+}
+#FadeIn5{
+    animation: FadeIn 1s ease 1.2s;
+    animation-fill-mode: backwards;
+}
+.MoveInUp{
+    animation: MoveInUp 0.8s ease 1.2s;
+    animation-fill-mode: backwards;
+}
+
+.MoveInLeft{
+    animation: MoveInLeft 0.8s ease 1.2s;
+    animation-fill-mode: backwards;
+}

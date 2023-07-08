@@ -1,0 +1,40 @@
+#intro{
+    font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    height:88vh;
+    margin:27px;
+    background-image: url(./images/pexels-ivo-rainha-1290141.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 86vw;
+    background-color: black;
+    
+    &__container{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        height:91vh;
+    }   
+    &__description{
+        flex-basis:400px;
+        color:white;
+        font-size: 42px;
+        letter-spacing: 3px;
+        font-weight:bold;
+        text-align: left;
+        .button_intro{
+            background-image:linear-gradient(to right,#6E3F29,rgba(0,0,0,1));
+        }
+        
+    }
+    .image{
+        transition:transform 0.5s;
+        &:hover{
+            transform:scale(1.1);
+        }
+    }
+   
+}
+
+
+

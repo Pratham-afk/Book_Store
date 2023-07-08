@@ -1,0 +1,31 @@
+
+ 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+body{
+    background-color: black;
+}
+a:link,
+a:visited{
+    text-decoration:none;
+    color:inherit;
+}
+
+@import "./SCSS/components/button.scss";
+@import "./SCSS/components/card.scss";
+
+
+@import "./SCSS/sections/navigation.scss";
+@import "./SCSS/sections/intro.scss";
+@import "./SCSS/sections/footer.scss";
+@import "./SCSS/sections/bestsellers.scss";
+@import "./SCSS/sections/recommend.scss";
+@import "./SCSS/sections/reviews.scss";
+
+
+@import "./SCSS/utilities/animations.scss";
+@import "./SCSS/utilities/responsive.scss"
